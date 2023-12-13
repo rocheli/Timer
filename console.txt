@@ -1,0 +1,731 @@
+正在导入 1 构建数据文件(BDF) 项目...
+正在导入 Timer...
+...失败 - 项目名称已存在: Timer
+...完成, 1 中的 0 项目成功导入。
+开始 "MISRA C 2023 (MISRA C 2012)" (静态) ...
+
+Parasoft C/C++test 2023.1.1 (10.6.2.20230620B3957) -- Copyright (C) 2023 Parasoft Corporation
+
+正在加载首选项...
+正在检查许可证...
+许可证: 机器码 WIN32-3dbd618f (Default)
+正在检查编译器配置...
+正在检查测试配置...
+正在更新规则...
+正在计算输入范围...
+从 D:\sapce11.29.8\.cpptest\.dtpengine\session_20231129_141737\bdf.lst 中收集构建数据描述文件...
+从 D:\sapce11.29.8\.cpptest\.dtpengine\session_20231129_141737\Timer.bdf收集构建日志...
+收集头文件日志...
+正在运行分析...
+正在报告 范围分析器 结果...
+开始 C/C++ 代码分析 (MISRA C 2023 (MISRA C 2012))...
+Timer/Timer/clock.c 最新的代码分析
+Timer/Timer/stdinout.c 最新的代码分析
+Timer/Timer/timer.c 最新的代码分析
+Timer/Timer/driver.c 最新的代码分析
+代码分析 (MISRA C 2023 (MISRA C 2012)) 完成 - 检查的文件: 8
+正在报告 Parasoft C/C++ Code Analyzer 结果...
+开始 C/C++ 静态分析 (MISRA C 2023 (MISRA C 2012))...
+正在报告 Parasoft C/C++ 静态分析器 结果...
+从 clock.c中读取静态结果...
+从 driver.c中读取静态结果...
+从 stdinout.c中读取静态结果...
+从 timer.c中读取静态结果...
+
+MISRAC2012-RULE_8_4-a: 函数原型 'add' 不在函数定义之前
+C:\Users\75976\Desktop\examples\Timer\clock.c: 31
+
+MISRAC2012-RULE_8_4-a: 函数原型 'test' 不在函数定义之前
+C:\Users\75976\Desktop\examples\Timer\clock.c: 35
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'time' 函数
+C:\Users\75976\Desktop\examples\Timer\clock.c: 16
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'ctime' 函数
+C:\Users\75976\Desktop\examples\Timer\clock.c: 17
+
+MISRAC2012-RULE_21_6-a: 不允许使用 'sprintf' 函数
+C:\Users\75976\Desktop\examples\Timer\clock.c: 19
+
+MISRAC2012-RULE_1_5-c: 函数 'display_time' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.c: 13
+
+MISRAC2012-RULE_8_2-c: 函数 'display_time' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.c: 13
+
+MISRAC2012-RULE_1_5-c: 函数 'test' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.c: 35
+
+MISRAC2012-RULE_8_2-c: 函数 'test' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.c: 35
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "sprintf" 返回值
+C:\Users\75976\Desktop\examples\Timer\clock.c: 19
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\clock.c: 20
+
+MISRAC2012-RULE_2_7-a: 参数 'new_time' 从未在函数 'set_time' 中使用
+C:\Users\75976\Desktop\examples\Timer\clock.c: 27
+
+MISRAC2012-RULE_1_5-c: 函数 'display_time' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.h: 8
+
+MISRAC2012-RULE_8_2-c: 函数 'display_time' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\clock.h: 8
+
+MISRAC2012-RULE_8_2-a: 在函数 'set_time' 中应当给出所有的参数的名称
+C:\Users\75976\Desktop\examples\Timer\clock.h: 11
+
+MISRAC2012-RULE_1_5-c: 函数 'get_input_digit' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\inout.h: 6
+
+MISRAC2012-RULE_8_2-c: 函数 'get_input_digit' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\inout.h: 6
+
+MISRAC2012-RULE_1_5-c: 函数 'print_string_array' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\inout.h: 12
+
+MISRAC2012-RULE_8_2-c: 函数 'print_string_array' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\inout.h: 12
+
+MISRAC2012-RULE_8_2-a: 在函数 'print_string' 中应当给出所有的参数的名称
+C:\Users\75976\Desktop\examples\Timer\inout.h: 9
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 16
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 27
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 31
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 31
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 31
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\clock.c: 35
+
+MISRAC2012-RULE_21_1-a: 不得使用保留的标识符: _clock_h_
+C:\Users\75976\Desktop\examples\Timer\clock.h: 3
+
+MISRAC2012-RULE_21_10-a: 不要包含头文件 <time.h>
+C:\Users\75976\Desktop\examples\Timer\clock.h: 5
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\clock.h: 11
+
+MISRAC2012-RULE_21_1-a: 不得使用保留的标识符: _consts_h_
+C:\Users\75976\Desktop\examples\Timer\consts.h: 3
+
+MISRAC2012-RULE_21_1-a: 不得使用保留的标识符: _input_h_
+C:\Users\75976\Desktop\examples\Timer\inout.h: 3
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\inout.h: 6
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\inout.h: 9
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\inout.h: 12
+
+MISRAC2012-DIR_4_8-a: 考虑将结构 'timer_record' 的实现隐藏在编译单元 'driver.c' 中
+C:\Users\75976\Desktop\examples\Timer\timer.h: 9
+
+MISRAC2012-RULE_8_4-a: 函数原型 'print_menu_get_action' 不在函数定义之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 13
+
+MISRAC2012-RULE_8_4-a: 函数原型 'main_loop' 不在函数定义之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 32
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 29
+
+MISRAC2012-RULE_17_3-a: 函数原型 'print_menu_get_action' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 35
+
+MISRAC2012-RULE_17_3-a: 函数原型 'add_timer' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 40
+
+MISRAC2012-RULE_17_3-a: 函数原型 'display_time' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 55
+
+MISRAC2012-RULE_17_3-a: 函数原型 'list_timers' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 52
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 49
+
+MISRAC2012-RULE_17_3-a: 函数原型 'init_timer' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 71
+
+MISRAC2012-RULE_17_3-a: 函数原型 'main_loop' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 72
+
+MISRAC2012-RULE_17_3-a: 函数原型 'uninit_timer' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\driver.c: 73
+
+MISRAC2012-RULE_1_5-c: 函数 'print_menu_get_action' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 13
+
+MISRAC2012-RULE_8_2-c: 函数 'print_menu_get_action' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 13
+
+MISRAC2012-RULE_1_5-c: 函数 'main_loop' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 32
+
+MISRAC2012-RULE_8_2-c: 函数 'main_loop' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 32
+
+MISRAC2012-RULE_1_5-c: 函数 'main' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 69
+
+MISRAC2012-RULE_8_2-c: 函数 'main' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\driver.c: 69
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 15
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 16
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 17
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 18
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 19
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 20
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 21
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 22
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 23
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 24
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 25
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 26
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 28
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 42
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 44
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 63
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 59
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 48
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 15
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 16
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 17
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 18
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 19
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 20
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 21
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 22
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 23
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 24
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 25
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 26
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 28
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 42
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 44
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 63
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 59
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\driver.c: 48
+
+MISRAC2012-RULE_15_5-a: 'main_loop' 函数末端应有 'return' 语句
+C:\Users\75976\Desktop\examples\Timer\driver.c: 60
+
+MISRAC2012-RULE_1_5-c: 函数 'init_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 17
+
+MISRAC2012-RULE_8_2-c: 函数 'init_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 17
+
+MISRAC2012-RULE_1_5-c: 函数 'uninit_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 18
+
+MISRAC2012-RULE_8_2-c: 函数 'uninit_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 18
+
+MISRAC2012-RULE_1_5-c: 函数 'add_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 21
+
+MISRAC2012-RULE_8_2-c: 函数 'add_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 21
+
+MISRAC2012-RULE_1_5-c: 函数 'list_timers' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 33
+
+MISRAC2012-RULE_8_2-c: 函数 'list_timers' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.h: 33
+
+MISRAC2012-RULE_8_2-a: 在函数 'add_timer_record' 中应当给出所有的参数的名称
+C:\Users\75976\Desktop\examples\Timer\timer.h: 24
+
+MISRAC2012-RULE_8_2-a: 在函数 'delete_timer_record' 中应当给出所有的参数的名称
+C:\Users\75976\Desktop\examples\Timer\timer.h: 27
+
+MISRAC2012-RULE_8_2-a: 在函数 'format_timer_record' 中应当给出所有的参数的名称
+C:\Users\75976\Desktop\examples\Timer\timer.h: 30
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 13
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\driver.c: 35
+
+MISRAC2012-RULE_21_1-a: 不得使用保留的标识符: _timer_h_
+C:\Users\75976\Desktop\examples\Timer\timer.h: 3
+
+MISRAC2012-RULE_21_10-a: 不要包含头文件 <time.h>
+C:\Users\75976\Desktop\examples\Timer\timer.h: 5
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 11
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 12
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'unsigned'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 13
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 21
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 27
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.h: 30
+
+MISRAC2012-RULE_21_6-a: 不允许使用 'printf' 函数
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 54
+
+MISRAC2012-RULE_1_5-c: 函数 'get_input_digit' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 16
+
+MISRAC2012-RULE_8_2-c: 函数 'get_input_digit' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 16
+
+MISRAC2012-RULE_2_8-c: 声明但未使用的局部变量 'c'
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 18
+
+MISRAC2012-RULE_21_7-a: 不允许使用 'atoi' 函数
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 46
+
+MISRAC2012-RULE_8_13-a: 使用常量说明符传递参数 "str"
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 52
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 16
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 19
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 35
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\stdinout.c: 52
+
+MISRAC2012-RULE_8_4-a: 函数原型 'query_user' 不在函数定义之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 38
+
+MISRAC2012-RULE_8_4-a: 对象'max_records' 的声明不在其定义之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 17
+
+MISRAC2012-RULE_10_3-b: The expression of the 'essentially signed' type is assigned to an object with the 'essentially unsigned' type
+C:\Users\75976\Desktop\examples\Timer\timer.c: 69
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'time' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 45
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'localtime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 46
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'mktime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 57
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'mktime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 65
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'strftime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 133
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'localtime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 133
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'strftime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 134
+
+MISRAC2012-RULE_21_10-b: 不允许使用 'localtime' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 134
+
+MISRAC2012-RULE_21_3-a: 'malloc' 函数不应被使用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 48
+
+MISRAC2012-DIR_4_12-a: 'malloc' 函数不应被使用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 48
+
+MISRAC2012-RULE_21_3-a: 'free' 函数不应被使用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 123
+
+MISRAC2012-DIR_4_12-a: 'free' 函数不应被使用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 123
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 53
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 55
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 61
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 63
+
+MISRAC2012-RULE_17_3-a: 函数原型 'get_input_digit' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 69
+
+MISRAC2012-RULE_17_3-a: 函数原型 'query_user' 不在函数调用之前
+C:\Users\75976\Desktop\examples\Timer\timer.c: 78
+
+MISRAC2012-RULE_11_9-a: 指针类型的表达式与 '0' 进行比较
+C:\Users\75976\Desktop\examples\Timer\timer.c: 116
+
+MISRAC2012-RULE_21_6-a: 不允许使用 'sprintf' 函数
+C:\Users\75976\Desktop\examples\Timer\timer.c: 137
+
+MISRAC2012-RULE_11_5-a: 不应将指向 void 类型的指针转换为指向对象类型 'struct timer_record *' 的指针
+C:\Users\75976\Desktop\examples\Timer\timer.c: 48
+
+MISRAC2012-RULE_11_9-b: 指针类型的表达式与 '0' 进行比较
+C:\Users\75976\Desktop\examples\Timer\timer.c: 116
+
+MISRAC2012-RULE_1_5-c: 函数 'init_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 20
+
+MISRAC2012-RULE_8_2-c: 函数 'init_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 20
+
+MISRAC2012-RULE_1_5-c: 函数 'uninit_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 25
+
+MISRAC2012-RULE_8_2-c: 函数 'uninit_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 25
+
+MISRAC2012-RULE_1_5-c: 函数 'query_user' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 38
+
+MISRAC2012-RULE_8_2-c: 函数 'query_user' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 38
+
+MISRAC2012-RULE_1_5-c: 函数 'add_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 74
+
+MISRAC2012-RULE_8_2-c: 函数 'add_timer' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 74
+
+MISRAC2012-RULE_1_5-c: 函数 'list_timers' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 142
+
+MISRAC2012-RULE_8_2-c: 函数 'list_timers' 不是原型形式
+C:\Users\75976\Desktop\examples\Timer\timer.c: 142
+
+MISRAC2012-RULE_10_4-a: Operands of the '*' operator have different essential types: 'unsigned long long' and 'signed char'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 22
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 52
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 54
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 60
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 62
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 68
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 100
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 146
+
+MISRAC2012-RULE_7_4-a: 字符串字面量作为指向非常量对象的指针被传给函数: 'print_string'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 147
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "memset" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 22
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "memset" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 49
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 52
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 54
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 60
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 62
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 68
+
+MISRAC2012-RULE_2_8-c: 声明但未使用的局部变量 'start_h'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 40
+
+MISRAC2012-RULE_2_8-c: 声明但未使用的局部变量 'start_m'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 40
+
+MISRAC2012-RULE_2_8-c: 声明但未使用的局部变量 'end_h'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 40
+
+MISRAC2012-RULE_2_8-c: 声明但未使用的局部变量 'end_m'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 40
+
+MISRAC2012-RULE_14_4-a: 应该显式地测试一个数据值是否为零
+C:\Users\75976\Desktop\examples\Timer\timer.c: 80
+
+MISRAC2012-RULE_15_5-a: 'add_timer' 函数中只提供一个出口点
+C:\Users\75976\Desktop\examples\Timer\timer.c: 83
+
+MISRAC2012-RULE_15_5-a: 'add_timer' 函数中只提供一个出口点
+C:\Users\75976\Desktop\examples\Timer\timer.c: 85
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 100
+
+MISRAC2012-RULE_13_3-a: '++' 运算符应该在表达式中引起唯一的附带后果
+C:\Users\75976\Desktop\examples\Timer\timer.c: 98
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "strftime" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 133
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "strftime" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 134
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "sprintf" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 137
+
+MISRAC2012-RULE_14_4-a: 应该显式地测试一个数据值是否为零
+C:\Users\75976\Desktop\examples\Timer\timer.c: 136
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 146
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 147
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 151
+
+MISRAC2012-RULE_17_7-a: 未使用的函数的 "print_string" 返回值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 153
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 17
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 18
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 28
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 40
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'time_t'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 42
+
+MISRAC2012-RULE_21_10-c: 不应使用标识符 'tm'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 43
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 74
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 108
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 111
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 126
+
+MISRAC2012-DIR_4_6-b: 不应使用基本数字类型 'int'
+C:\Users\75976\Desktop\examples\Timer\timer.c: 145
+
+正在开始 C/C++ 数据流分析 (MISRA C 2023 (MISRA C 2012))...
+Parasoft C/C++ 数据流分析器 10.6.2.20230510B4190
+为 Timer/Timer/stdinout.c 加载增量分析数据中...
+为 Timer/Timer/clock.c 加载增量分析数据中...
+为 Timer/Timer/timer.c 加载增量分析数据中...
+为 Timer/Timer/driver.c 加载增量分析数据中...
+图形扫描: 初始化控制流程图预扫描
+图形扫描: 正在预扫描控制流程图。 完成了 0%
+图形扫描: 正在预扫描控制流程图。 完成了 100%
+图形扫描 > 处理方法: 收集异常信息, 阶段 1。: 100% 
+图形扫描: 正在结束控制流程图预扫描
+检查数据流分析规则中...
+正在检查 Timer/Timer/timer.c
+正在检查 Timer/Timer/driver.c
+正在检查 Timer/Timer/stdinout.c
+正在检查 Timer/Timer/clock.c
+数据流分析 (MISRA C 2023 (MISRA C 2012)) 已完成
+正在报告 Parasoft C/C++ 数据流分析器 结果...
+
+MISRAC2012-DIR_4_1-f: 在引用之后检查 "record" 是否为空(null)
+C:\Users\75976\Desktop\examples\Timer\timer.c: 80
+
+MISRAC2012-DIR_4_1-f: 在引用之后检查 "tr" 是否为空(null)
+C:\Users\75976\Desktop\examples\Timer\timer.c: 136
+
+MISRAC2012-DIR_4_7-b: 从方法 "malloc" 返回的值应该被检查
+C:\Users\75976\Desktop\examples\Timer\timer.c: 49
+
+MISRAC2012-DIR_4_1-b: "the_record" 可能是 null 值
+C:\Users\75976\Desktop\examples\Timer\timer.c: 49
+
+MISRAC2012-RULE_14_3-ac: 条件 "tr" 始终等于 true
+C:\Users\75976\Desktop\examples\Timer\timer.c: 136
+
+MISRAC2012-DIR_4_1-a: 可能在使用索引 -1 时访问数组 "timer_records" 越界。正确的索引: [0...99]
+C:\Users\75976\Desktop\examples\Timer\timer.c: 116
+
+MISRAC2012-RULE_18_1-a: 可能在使用索引 -1 时访问数组 "timer_records" 越界。正确的索引: [0...99]
+C:\Users\75976\Desktop\examples\Timer\timer.c: 116
+
+开始 C/C++ 全局静态分析 (MISRA C 2023 (MISRA C 2012))...
+读取全局静态分析结果 clock.c...
+读取全局静态分析结果 driver.c...
+读取全局静态分析结果 stdinout.c...
+读取全局静态分析结果 timer.c...
+检查规则 GLOBAL-UNIQUETYPEC...
+检查规则 GLOBAL-REUSEDSTATFUN...
+检查规则 GLOBAL-ONEEXTERNDEF...
+检查规则 GLOBAL-CONDMUTEXVAR...
+检查规则 GLOBAL-REUSEDEXTFUN...
+检查规则 GLOBAL-ALIGNDECL...
+检查规则 GLOBAL-AVOIDEXTERN...
+检查规则 GLOBAL-COMPATDECLS...
+检查规则 GLOBAL-REUSEDSTATVAR...
+检查规则 GLOBAL-UNUSEDEXTVAR...
+检查规则 GLOBAL-UNIQUETYPEDEFC...
+检查规则 GLOBAL-REUSEDEXTVAR...
+正在报告 Parasoft C/C++ 全局静态分析器 结果...
+
+MISRAC2012-RULE_8_6-a: 'print_string_array' 函数未定义
+C:\Users\75976\Desktop\examples\Timer\inout.h: 12
+
+MISRAC2012-RULE_8_7-a: 对象 'max_records' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 17
+
+MISRAC2012-RULE_8_7-a: 函数 'query_user' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 38
+
+MISRAC2012-RULE_8_7-a: 函数 'add' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\clock.c: 31
+
+MISRAC2012-RULE_8_7-a: 函数 'format_timer_record' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 126
+
+MISRAC2012-RULE_8_7-a: 函数 'add_timer_record' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\timer.c: 88
+
+MISRAC2012-RULE_8_7-a: 函数 'print_menu_get_action' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\driver.c: 13
+
+MISRAC2012-RULE_8_7-a: 函数 'main_loop' 仅在其定义的编译单元中被引用
+C:\Users\75976\Desktop\examples\Timer\driver.c: 32
+
+默认情况下，在 IDE 中已禁用发布报告到 DTP 功能。需要显式使用 report.dtp.publish 设置来启用。
+
+静态分析违规: 214
+
+总违规数：214，报告生成：11/29/23 14:17:59
+
+已检查文件:
+/Timer/Timer/clock.c
+/Timer/Timer/clock.h
+/Timer/Timer/consts.h
+/Timer/Timer/driver.c
+/Timer/Timer/inout.h
+/Timer/Timer/stdinout.c
+/Timer/Timer/timer.c
+/Timer/Timer/timer.h
+
+"MISRA C 2023 (MISRA C 2012)" (静态) 成功完成
