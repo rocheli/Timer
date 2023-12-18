@@ -35,11 +35,19 @@ int add(int a,int b)
 return a+b;
 }
 
+#include <stdio.h>
 
+void printArray() {
+    int localArray[] = {1, 2, 3, 4, 5}; // 局部数组声明并初始化
 
-int test()
-{
-return add(1,2);
+    // 打印数组中的每个元素
+    for (int i = 0; i < sizeof(localArray) / sizeof(localArray[0]); i++) {
+        printf("%d ", localArray[i]);
+    }
+
+    printf("\n");
 }
+
+
 
 
